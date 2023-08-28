@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.MainViewController">
+   <children>
+      <Label layoutX="91.0" layoutY="41.0" text="Red" />
+      <Label layoutX="257.0" layoutY="43.0" text="Opacity" />
+      <Label layoutX="149.0" layoutY="41.0" text="Green" />
+      <Label layoutX="208.0" layoutY="43.0" text="Blue" />
+      <Slider fx:id="slrRed" blockIncrement="1.0" layoutX="91.0" layoutY="80.0" max="255.0" orientation="VERTICAL" prefHeight="240.0" prefWidth="16.0" value="5.0" />
+      <Slider fx:id="slrGreen" blockIncrement="1.0" layoutX="156.0" layoutY="80.0" max="255.0" orientation="VERTICAL" prefHeight="240.0" prefWidth="16.0" value="25.0" />
+      <Slider fx:id="slrBlue" blockIncrement="1.0" layoutX="214.0" layoutY="80.0" max="255.0" orientation="VERTICAL" prefHeight="240.0" prefWidth="16.0" value="50.0" />
+      <Slider fx:id="slrOpacity" blockIncrement="1.0" layoutX="274.0" layoutY="80.0" orientation="VERTICAL" prefHeight="240.0" prefWidth="16.0" value="100.0" />
+      <Rectangle fx:id="shpRec" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="357.0" layoutY="107.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label fx:id="lblRed" layoutX="65.0" layoutY="340.0" prefHeight="16.0" prefWidth="60.0" />
+      <Label fx:id="lblOpacity" layoutX="257.0" layoutY="340.0" prefHeight="16.0" prefWidth="60.0" />
+      <Label fx:id="lblGreen" layoutX="139.0" layoutY="338.0" prefHeight="16.0" prefWidth="60.0" />
+      <Label fx:id="lblBlue" layoutX="197.0" layoutY="340.0" prefHeight="16.0" prefWidth="60.0" />
+   </children>
+</AnchorPane>
