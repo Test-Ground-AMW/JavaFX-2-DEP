@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="511.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.MainViewController">
+   <children>
+      <VBox layoutX="98.0" layoutY="67.0" prefHeight="330.0" prefWidth="164.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnAcchorPaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnAcchorPaneLayoutOnAction" prefHeight="44.0" prefWidth="162.0" text="Anchor pane layout" />
+            <Button fx:id="btnBorderPaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnBorderPaneLayoutOnAction" prefHeight="44.0" prefWidth="162.0" text="Border pane layout" />
+            <Button fx:id="btnTilePaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnTilePaneLayoutOnAction" prefHeight="44.0" prefWidth="162.0" text="Tile pane layout" />
+            <Button fx:id="btnFlowPaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnFlowPaneLayoutOnAction" prefHeight="44.0" prefWidth="162.0" text="Flow pane layout" />
+            <Button fx:id="btnGridPaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnGridPaneLayoutOnAction" prefHeight="44.0" prefWidth="162.0" text="Grid pane layout" />
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="162.0" text="HBox pane layout" />
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="162.0" text="VBox pane layout" />
+            <Button fx:id="btnStackPaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnStackPaneLayouOnAction" prefHeight="44.0" prefWidth="162.0" text="Stack pane layout" />
+            <Button fx:id="btnTabPaneLayout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnTabPaneLayoutOnAction" prefHeight="44.0" prefWidth="162.0" text="Tab pane layout" />
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="162.0" text="Accordian layout" />
+         </children>
+      </VBox>
+      <Label layoutX="154.0" layoutY="28.0" text="Layouts" />
+   </children>
+</AnchorPane>

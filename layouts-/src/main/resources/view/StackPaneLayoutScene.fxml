@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="/home/achinda/Documents/DEP-11/phase-1/javafx/layouts-/src/main/resources/view/StackPaneLayoutScene.fxml">
+   <children>
+      <Rectangle fx:id="shpRectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Circle fx:id="shpCircle" fill="DODGERBLUE" opacity="0.5" radius="113.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#fff51f" points="-206.0, -60.0, 50.0, 40.0, 41.0, -230.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="btnBringToFront" mnemonicParsing="false" onAction="#btnBringToFrontOnAction" prefHeight="66.0" prefWidth="123.0" text="Button" />
+   </children>
+</StackPane>
