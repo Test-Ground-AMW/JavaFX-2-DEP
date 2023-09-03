@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="465.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.MainViewController">
+   <children>
+      <Label layoutX="22.0" layoutY="25.0" text="Drag and Drop Demo 2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="51.0" text="Enter a task to add" />
+      <TextField fx:id="txtTask" layoutX="27.0" layoutY="78.0" onAction="#txtTaskOnAction" prefHeight="24.0" prefWidth="538.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <ListView fx:id="lvTaskList" layoutX="15.0" layoutY="111.0" onDragDetected="#lvTaskListOnDragDetected" prefHeight="147.0" prefWidth="570.0" />
+      <Label layoutX="27.0" layoutY="268.0" text="Completed Task List" />
+      <ListView fx:id="lvTaskCompleted" layoutX="15.0" layoutY="297.0" onDragDropped="#lvTaskCompletedOnDragDropped" onDragOver="#lvTaskCompletedOnDragOver" prefHeight="147.0" prefWidth="570.0" />
+   </children>
+</AnchorPane>
