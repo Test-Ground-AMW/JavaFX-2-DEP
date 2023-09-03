@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="449.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.MainViewController">
+   <children>
+      <TextField fx:id="txtSubject" layoutX="32.0" layoutY="131.0" onAction="#txtSubjectOnAction" prefHeight="24.0" prefWidth="200.0" />
+      <ListView fx:id="lvSubject" layoutX="32.0" layoutY="176.0" onKeyPressed="#lvSubjectOnKeyPressed" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lvSelectedSubject" layoutX="329.0" layoutY="176.0" onKeyPressed="#lvSelectedSubjectOnKeyPressed" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnBack" layoutX="257.0" layoutY="291.0" mnemonicParsing="false" onAction="#btnBackOnAction" text="◁" />
+      <Button fx:id="btnNext" layoutX="257.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnNextOnAction" text="▷" />
+      <Button fx:id="btnRemove" layoutX="32.0" layoutY="392.0" mnemonicParsing="false" onAction="#btnRemoveOnAction" text="Remove" />
+      <Button fx:id="btnClear" layoutX="181.0" layoutY="392.0" mnemonicParsing="false" onAction="#btnClearOnAction" text="Clear" />
+      <Label layoutX="23.0" layoutY="24.0" text="List view and Combo box">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="85.0" text="Enter a subject to add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnComboBox" layoutX="429.0" layoutY="82.0" mnemonicParsing="false" onAction="#btnComboBox" text="Combo Box" />
+   </children>
+</AnchorPane>
